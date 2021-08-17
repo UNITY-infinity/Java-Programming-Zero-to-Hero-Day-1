@@ -1,0 +1,9 @@
+Interpreter only translates one statement of the program at a time and
+"translates" each individual statement into machine code, while a compiler scans the whole
+program before "translating" the entire program into machine code.
+According to the above, it's easily understandable that a compiler consumes much more 
+memory and time analyzing than an intepreter, even though an intepreter consumes more time overall. In addition, an intepreter "translates"
+the program until it encounters an error, in which case "translation" stops, while
+a compiler stops debugging only after scanning the whole program, even if it contains an error.
+Interpreters don't convert source code to object code, which means that it requires the source code for later execution,
+while compilers on the contrary convert source code to object code, making the source code unnecessary for later execution.
